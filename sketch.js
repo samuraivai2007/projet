@@ -10,17 +10,15 @@ function draw()
   if(keyIsDown(DOWN_ARROW)){
     background('red')
   }
-    if(KeyIsDown(UP_ARROW)){
-      background('green')
-    }
-      if(KeyIsDown(RIGHT_ARROW)){
-  background('blue')
-      }
-      if(KeyIsDown(LEFT_ARROW)){
-        background('black')
-      }
-    
-  
+  if(keyIsDown(UP_ARROW)){
+    background('green')
+  }
+  if(keyIsDown(LEFT_ARROW)){
+    background('blue')
+  }
+  if(keyIsDown(RIGHT_ARROW)){
+    background('orange')
+  }
 
 }
 
